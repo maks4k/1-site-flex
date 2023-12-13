@@ -12,7 +12,9 @@ header{
     flex-direction: column;
     justify-content: space-around;
     height: 350px;
-    
+    background-repeat: no-repeat;
+    background-size: cover;
+
     
     
 
@@ -72,19 +74,68 @@ section{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 400px;
+    height: 500px;
     align-items: center;
 }
 .content{
     display: flex;
     justify-content: space-between;
-    border: 1px solid red;
     width: 100%;
+    flex-wrap: wrap;
 }
 .content-item{
     border-radius: 4px;
     background-color: #eee;
-    border: 1px solid red;
     width: 270px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    justify-content: space-between;
 
+}
+.content-item a{
+    text-align: center;
+    background-color: #aaa;
+    color: #eee;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 4px;
+    align-self: flex-start;
+    
+}
+footer{
+    border: 1px solid black;
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+footer *{
+    color: #fff;
+}
+footer p{
+    width: 500px;
+}
+form{
+    width: 250px;
+}
+form input[type="email"]{
+    width: 250px;
+    margin: 7px 0;
+}
+form input[type="submit"]{
+    text-align: center;
+    background-color: #aaa;
+    color: #eee;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 4px;
 }
