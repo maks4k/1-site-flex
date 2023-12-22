@@ -139,3 +139,36 @@ form input[type="submit"]{
     padding: 5px 15px;
     border-radius: 4px;
 }
+@media screen and (max-width:992px)
+{
+    section{
+        height: 700px;
+    }
+}
+@media screen and (max-width:768px)
+{
+    .content{
+        flex-direction: column;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+        height: 600px;
+    }
+    .content-item{
+        width: 100%;
+        height: auto;
+    }
+    .header-top ul{
+        flex-direction: column;
+        align-items: flex-end;
+        align-content: flex-end;
+    }
+    footer{
+        height: 200px;
+    }
+    form{
+        width: 100px;
+    }
+    footer p{
+        width: 200px;
+    }
+}
